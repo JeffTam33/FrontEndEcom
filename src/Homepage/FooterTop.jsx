@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CssFile/LightMode/FooterTop.css'
-import { UilTruck, UilUsersAlt, UilCube} from '@iconscout/react-unicons'
+import { UilTruck, UilUsersAlt, UilCube } from '@iconscout/react-unicons'
 
 function Footer() {
 

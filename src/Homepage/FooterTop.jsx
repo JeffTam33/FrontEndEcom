@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CssFile/LightMode/FooterTop.css'
 import { UilTruck, UilUsersAlt, UilCube } from '@iconscout/react-unicons'
-
+//New
 function Footer() {
 
   return (

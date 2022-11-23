@@ -10,7 +10,7 @@ function Footer() {
         <div className='about_company'>
           <UilUsersAlt className='icons_footer' size="46"/>
           <h2 className='info'>About Us</h2>
-          <p> &emsp; Welcome to Tailor, a store with unique products and services, perfect gifts to give or to yourself. We source quality over quantity, making sure your purchase is built to last. Of course you are welcome to come back to buy more.</p>
+          <p> &emsp; AAAWelcome to Tailor, a store with unique products and services, perfect gifts to give or to yourself. We source quality over quantity, making sure your purchase is built to last. Of course you are welcome to come back to buy more.</p>
         </div>
         <div className='about_products'>
           <UilCube className='icons_footer' size="46"/>

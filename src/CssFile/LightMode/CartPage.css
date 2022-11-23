@@ -1,0 +1,124 @@
+.cart_page {
+  height: 60vw;
+  width: 100%;
+  background-color: #d1d9e0;
+}
+
+.user_cart {
+  float: left;
+  height: 80%;
+  width: 45%;
+  margin-top: 1vw;
+  background-color: #abb2b8;
+}
+
+.cart_total {
+  float: right;
+  height: 80%;
+  width: 45%;
+  margin-top: 1vw;
+  background-color: #dde5ed;
+}
+
+.cart_titles {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 140px;
+  border-bottom: 2px solid black;
+}
+
+.item_cart {
+  height: 100px;
+  width: 100px;
+}
+
+.cart_grid {
+  margin-left: 10px;
+  display: grid;
+  column-gap: 50px;
+}
+
+.remove_button {
+  background-color: #f24e4e;
+  color: white;
+  height: 40px;
+  width: 80px;
+  margin-left: 90px;
+  border-radius: 100px;
+  margin-top: -45px;
+  border: none;
+}
+
+.remove_button:hover {
+  background-color: white;
+  color: black;
+  transition: 400ms;
+}
+
+.dropdown {
+  position: relative;
+  width: 70px;
+  height: 50px;
+}
+
+.dropdown input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #e9ebf0;
+  padding: 12px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.dropdown::before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #333;
+  z-index: 1;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  transform: rotate(-45deg);
+  pointer-events: none;
+  transition: 400ms;
+}
+
+.dropdown.active::before {
+  top: 25px;
+  transform: rotate(-225deg);
+  transition: 400ms;
+}
+
+.dropdown.active .option {
+  display: block;
+}
+
+.dropdown .option {
+  position: absolute;
+  top: 50px;
+  width: 70px;
+  background-color: #d0d2d6;
+  overflow: hidden;
+  display: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.dropdown .option div {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.drop .option div:hover {
+  background-color: black;
+  color: white;
+}
+
+

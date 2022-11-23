@@ -1,0 +1,141 @@
+.season {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: auto;
+  margin-top: -21px;
+  background-color: #EEF5DB;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.carousel_container {
+  margin-top: 1vw;
+  height: 450px;
+  width: 500px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.carousel {
+  height: 450px;
+  width: 500px;
+  float: left;
+}
+
+img {
+  height: 450px;
+  width: 500px;
+  border-radius: 9px;
+}
+
+.season_info {
+  width: 45%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+.details {
+  font-size: 19px;
+}
+
+.reserve {
+  height: 100px;
+  width: 250px;
+  border-radius: 9px;
+  font-size: 24px;
+  border: none;
+  background-color: #6693aa;
+  color: white;
+}
+
+.reserve:hover {
+  transition: 0.5s;
+  border: none;
+  background-color: #1e2c33;
+}
+
+.calendar_wrapper {
+  z-index: 3;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .season {
+    display: grid;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel_container {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    float: none;
+    height: 400px;
+    width: 600px;
+  }
+  .carousel {
+    height: 400px;
+    width: 600px;
+  }
+  img {
+    height: 400px;
+    width: 600px;
+  }
+  .season_info {
+    float: none;
+    height: 400px;
+    width: 600px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .reserve {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .season {
+    height: 750px;
+  }
+  .carousel_container, .carousel, .season_info, .carousel, img {
+    height: 300px;
+    width: 370px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .details {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .season {
+    height: 600px;
+  }
+  .carousel_container, .carousel, .season_info, .carousel, img {
+    height: 63vw;
+    width: 80vw;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 17px;
+  }
+  .details {
+    font-size: 13px;
+  }
+}

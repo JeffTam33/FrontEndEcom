@@ -1,0 +1,145 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.item {
+  background-color: #badbe6;
+  height: 40vw;
+  width: 100%;
+  margin: auto;
+}
+
+.product_gallery {
+  float: left;
+  height: 40vw;
+  width: 45vw;
+}
+
+.product_info {
+  float: right;
+  height: 40vw;
+  width: 45vw;
+}
+
+.image_gallery {
+  margin-top: 10px;
+  height: 7vw;
+  width: 7vw;
+  border: 1px solid rgba(0, 0, 0, .3);
+  cursor: pointer;
+}
+
+.selected_image {
+  float: left;
+  margin-top: 10px;
+  margin-left: 4vw;
+  height: 28vw;
+  width: 30vw;
+  border-radius: 9px;
+}
+
+.image_gallery:hover {
+  border: 2px solid #034eff;
+}
+
+.list_image {
+  float: left;
+  margin-left: 10px;
+  height: 200px;
+  width: 70px;
+}
+
+.product_info {
+  justify-content: center;
+  align-items: center;
+}
+
+.product_title {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.description {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+ul {
+  padding: 0;
+}
+
+.price {
+  margin-left: 10px;
+  float: left;
+  font-size: 30px;
+}
+
+.add {
+  float: right;
+  height: 50px;
+  width: 125px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 9vw;
+  background-color: #126fcc;
+  color: white;
+}
+
+.add:hover {
+  transition: 0.5s;
+  border: none;
+  background-color: #0e5cab;
+}
+
+.option_color {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.option_color:hover {
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    height: 80vw;
+  }
+  .product_gallery {
+    width: 100%;
+  }
+  .selected_image {
+    float: left;
+    height: 30vw;
+    width: 30vw;
+  }
+  .image_gallery {
+    margin-top: 5px;
+    height: 9vw;
+    width: 9vw;
+  }
+  .list_image {
+    margin-left: 23vw;
+  }
+  .product_info {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .product_title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 15px;
+  }
+  .add {
+    height: 30px;
+  }
+}

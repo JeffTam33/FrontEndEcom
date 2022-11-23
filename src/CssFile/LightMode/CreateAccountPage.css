@@ -1,0 +1,45 @@
+.create_account_page {
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  height: 45vw;
+}
+  
+.section_create {
+  height: 40vw;
+  width: 50vw;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  margin-top: 1vw;
+}
+
+.create_name, .create_email, .create_password {
+  margin-top: 1vw;
+  margin-left: 10vw;
+}
+
+.create_name_label, .create_email_label, .create_password_label {
+  margin-right: 1vw;
+}
+
+.create_name_input, .create_email_input, .create_password_input {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.register_button {
+  margin-top: 3vw;
+  margin-left: 10vw;
+  
+}
+
+.rule_title {
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.rule {
+  margin-left: 2vw;
+  font-size: 14px;
+}

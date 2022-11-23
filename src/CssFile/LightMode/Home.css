@@ -1,0 +1,44 @@
+.home {
+  background: #84b2fb;
+  justify-content: center;
+  margin: auto;
+  height: 180px;
+}
+
+.season_title {
+  margin-left: 71vw;
+  position: absolute;
+  margin-top: 7vh;
+  color: white;
+  font-family: 'Cedarville Cursive', monospace;
+  font-size: 1.8em;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .season_title {
+    margin-top: 9vw;
+    font-size: 20px;
+    margin-left: 73vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    height: 30vw;
+  }
+  .season_title {
+    margin-top: 20vw;
+    margin-left: 38vw;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .season_title {
+    margin-top: 20vw;
+    font-size: 16px;
+    margin-left: 38vw;
+    border-bottom: none;
+  }
+} 

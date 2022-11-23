@@ -1,0 +1,164 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  padding: 5px;
+  height: 150px;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}
+
+.header_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.cart {
+  height: 30px;
+  width: 50px;
+}
+
+.account {
+  height: 30px;
+  width: 100px;
+}
+
+.favorites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.account:hover, .cart:hover, .favorites:hover {
+  background-color: #d1d1d1;
+  transition: 300ms;
+  border-radius: 99px;
+}
+
+.logo, .search_box, .account, .cart, .favorites, .switch {
+  float: left;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search_box_text {
+  padding: 10px;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 96px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #808080;
+  background-color: #bfbfbf;
+  outline: none;
+}
+
+.search_icon {
+  border: 1px solid #808080;
+  border-left: 0;
+  margin-top: -3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 96px;
+}
+
+.account_pfp {
+  height: 25px;
+  width: 25px;
+  border-radius: 90px;
+  margin-right: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #383838;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #666666;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+    justify-content: center;
+    align-items: none;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    height: 350px;
+  }
+  .header_bar {
+    display: block;
+    justify-content: center;
+    align-items: none;
+    height: 300px;
+  }
+  .logo, .search_box, .account, .cart, .favorites, .switch {
+    float: none;
+    margin-left: 20%;
+  }
+}

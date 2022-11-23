@@ -1,0 +1,24 @@
+.tools_page, .gifts_page, .snacks_page, .electronics_page {
+  height: 300px;
+  background-color: #f2b80a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.tools_page {
+
+}
+
+.gifts_page {
+
+}
+
+.snacks_page {
+
+}
+
+.electronics_page {
+
+}

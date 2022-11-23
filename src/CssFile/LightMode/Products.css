@@ -1,0 +1,11 @@
+.products {
+	background-color: #2a323d;
+	height: 27vw;
+	margin: auto;
+}
+
+.products_wrapper {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}

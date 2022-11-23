@@ -1,0 +1,128 @@
+.account_page {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.login_page {
+  display: flex;
+  justify-content: center;
+  height: 70vw;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.section {
+  height: 60vw;
+  width: 50vw;
+  background-color: #d9d9d9;
+  border-radius: 5px; 
+}
+
+.login_account_button, .create_account_button, .logout_account_button, .register_button {
+  border: none;
+  background-color: #0b0d0a;
+  color: white;
+  height: 35px;
+  border-radius: 12px;
+}
+
+.login_account_button:hover, .create_account_button:hover, .logout_account_button:hover, .register_button:hover {
+  background-color: wheat;
+  color: black;
+  transition: 300ms;
+}
+
+.sign_in_title, .email_address, .password_title, #username, #password, .login_account_button, .login_description, .create_account_button {
+  margin-top: 5px;
+  margin-left: 12vw;
+}
+
+.login_account_button, .create_account_button {
+  height: 50px;
+  width: 100px;
+}
+
+#username, #password {
+  padding: 5px;
+  border: 1px solid #808080;
+  outline: none;
+}
+
+#signInWithGoogle {
+  margin-top: 30px;
+  margin-left: 12vw;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.account_page {
+  display: flex;
+  justify-content: center;
+}
+
+.section_user {
+  height: 60vw;
+  width: 50vw;
+  background-color: #d9d9d9; 
+}
+
+.user_name, .email_name {
+  margin-top: 20px;
+  margin-left: 3vw;
+}
+
+.logout_account_button {
+  margin-left: 40%;
+}
+
+.account_page_pfp {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1025px){
+  .login_page {
+    height: 70vw;
+  }
+  .section {
+    height: 60vw;
+  }
+  .sign_in_title {
+    font-size: 50px;
+  }
+  .email_address, .password_title {
+    font-size: 25px;
+  }
+  #username, #password {
+    font-size: 30px;
+  }
+  .login_account_button {
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+  } 
+  .login_description {
+    font-size: 30px;
+  }
+  .create_account_button {
+    height: 80px;
+    width: 250px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_page { 
+    height: 90vw;
+  }
+  .login_page {
+    background-color: #d9d9d9;
+    height: 100vw;
+  }
+  .section {
+    height: 80vw;
+    width: 100vw;
+  }
+}

@@ -1,0 +1,20 @@
+.main {
+  background-color: rgb(0, 193, 161);
+  height: 30vh;
+  margin: auto;
+}
+
+.d-block {
+  padding: 20;
+  height: 250px;
+  width: 40vw;
+  margin-top: 20px;
+  margin: auto;
+  margin-left: 25;
+}
+
+.carousel {
+  margin: auto;
+  height: 250px;
+  width: 40vw;
+}

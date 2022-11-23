@@ -1,0 +1,65 @@
+.footer {
+  margin: auto;
+  background-color: #b1b1b3;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about_company, .about_products, .about_shipping {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 1vw;
+  border-bottom: 2px solid gray;
+  border-collapse: 10px;
+  line-height: 2;
+}
+
+p {
+  font-size: 18px;
+}
+
+.icons_footer {
+  margin-left: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer{
+    height: 420px;
+  }
+
+  .about_company, .about_products, .about_shipping {
+    float: left;
+    width: 25vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 886px) {
+  .footer{
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .footer{
+    height: 780px;
+  }
+  .about_company, .about_products, .about_shipping {
+    float: none;
+    width: 90vw;
+    margin-right: 0vw;
+    margin-left: 2vw;
+  }
+}

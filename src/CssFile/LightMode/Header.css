@@ -68,6 +68,8 @@ a {
 }
 
 .search_icon {
+  height: 45px;
+  width: 40px;
   border: 1px solid #808080;
   border-left: 0;
   margin-top: -3px;

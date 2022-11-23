@@ -1,9 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import '../CssFile/LightMode/Header.css'
-import { GiShoppingCart } from 'react-icons/gi'
-import { MdAccountCircle, MdOutlineSearch } from 'react-icons/Md'
-import { BsHeart } from 'react-icons/Bs'
+import { UilShoppingCart, UilUser, UilSearch, UilHeart } from '@iconscout/react-unicons'
 import { Link } from "react-router-dom"
 
 function Header() {
@@ -31,12 +29,12 @@ function Header() {
         <div className='search_box'>
           <input className='search_box_text' type="text" placeholder="Search..." size="20wv" />
           <Link to={'/'}>
-            <MdOutlineSearch className='search_icon' size="46"/>
+            <UilSearch className='search_icon' size="30"/>
           </Link>
         </div>
         <Link to={'/cart'}>
           <div className='cart'>
-            <GiShoppingCart className='icon' size="30px"/>
+            <UilShoppingCart className='icon' size="30px"/>
             <span className='icon_text' id='cart_num_items'>{0}</span>
           </div>
         </Link>
@@ -44,7 +42,7 @@ function Header() {
           localStorage.name === undefined &&
           <Link to={'/login'}>
             <div className='account'>
-              <MdAccountCircle className='icon' size="30px"/>
+              <UilUser className='icon' size="30px"/>
               <span className='icon_text'>Sign In</span>
             </div>
           </Link>
@@ -62,7 +60,7 @@ function Header() {
 
         <Link to={'/favorites'}>
           <div className='favorites'>
-            <BsHeart className='icon' size="30px"/>
+            <UilHeart className='icon' size="30px"/>
           </div>
         </Link>
         <label className="switch">

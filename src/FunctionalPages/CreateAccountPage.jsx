@@ -1,25 +1,47 @@
 import React from 'react'
+import backendCreateAccound from '../'
 import '../CssFile/LightMode/CreateAccountPage.css'
 
 function CreateAccountPage() {
+
+  function createAccount() {
+
+    checkPassword()
+    console.log("1111")
+
+    let newUser = {
+      "name": document.getElementById('name').value,
+      "email": document.getElementById('email').value,
+      "password": 0
+    }
+  }
+
+  function checkEmail() {
+    let emailSub = document.getElementById('email').value
+    return true 
+  }
+
+  function checkPassword() {
+    let passwordSub = document.getElementById('password').value
+    return true
+  }
 
   return (
     <div className='create_account_page'>
       <div className='section_create'>
         <div className='create_name'>
           <label className='create_name_label'>Name</label>
-          <input className='create_name_input' name="name" required/>
+          <input id='name' className='create_name_input' name="name" required/>
         </div>
         <div className='create_email'>
           <label className='create_email_label'>Email</label>
-          <input className='create_email_input' name="email" required/>
+          <input id='email' className='create_email_input' name="email" required/>
         </div>
         <div className='create_password'>
           <label className='create_password_label'>Password</label>
-          <input className='create_password_input' name="password" required/>
+          <input id='password' className='create_password_input' type='password' name="password" required/>
         </div>
-        <button className='register_button'>Register</button>
-        <button className='register_button'>AirBNB</button>
+        <button className='register_button' onClick={() => createAccount()}>Register</button>
         <div className='rules_container'>
           <h5 className='rule_title'>Passwords must be:</h5>
           <ul>

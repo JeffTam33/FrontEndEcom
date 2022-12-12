@@ -1,5 +1,4 @@
 import React from 'react'
-import backendCreateAccound from '../'
 import '../CssFile/LightMode/CreateAccountPage.css'
 
 function CreateAccountPage() {

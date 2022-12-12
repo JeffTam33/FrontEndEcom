@@ -1,0 +1,11 @@
+[
+  {
+    "name": "user1",
+    "email": "g@gmail.com",
+    "password": "any",
+    "cart": [{}],
+    "favorites": [{}],
+    "history": [{}],
+    "confirmation": [{}]
+  }
+]

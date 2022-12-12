@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Name of Seasonal Service",
+    "dateBought": "01/01/2000",
+    "dateReserve": "01/02/2000",
+    "price": 1,
+    "quantity": 1,
+    "info": {}
+  }
+]

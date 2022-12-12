@@ -65,7 +65,22 @@ img {
 
 .calendar_wrapper {
   z-index: 3;
-  position: absolute;
+}
+
+.add_to_cart {
+  height: 50px;
+  width: 150px;
+  border-radius: 9px;
+  font-size: 24px;
+  border: none;
+  background-color: #04db3a;
+  color: white;
+}
+
+.add_to_cart:hover {
+  transition: 0.5s;
+  border: none;
+  background-color: #159e37;
 }
 
 @media screen and (max-width: 1024px) {

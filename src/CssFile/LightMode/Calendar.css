@@ -1,14 +1,14 @@
 .react-calendar {
-    display: hidden;
-    float: left;
-    z-index: 1;
-    width: 400px;
-    max-width: 100%;
-    background: #DBD8F0;
-    border: 1px solid black;
-    font-family: "Work-sans", sans-serif;
-    line-height: 1.125em;
-    border-radius: 15px 15px 0px 0px;
+  display: hidden;
+  float: left;
+  z-index: 1;
+  width: 400px;
+  max-width: 100%;
+  background: #DBD8F0;
+  border: 1px solid black;
+  font-family: "Work-sans", sans-serif;
+  line-height: 1.125em;
+  border-radius: 15px 15px 0px 0px;
   }
   .react-calendar--doubleView {
     width: 700px;
@@ -146,4 +146,12 @@
 
 abbr[title] {
     text-decoration: underline solid;
+}
+
+
+@media screen and (max-width: 375px) {
+  .react-calendar {
+    width: 365px;
+  }
+
 }
